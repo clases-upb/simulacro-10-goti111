@@ -49,10 +49,6 @@ public class App {
          }
     }
 
-    
-
-
-
     /*
      * 3. Diseña el algoritmo y programa la función Calcular_potencia que recibe en un short el voltaje y en 
      * un byte, la corriente. Devuelve en un float, la potencia (potencia = voltaje * corriente). 
@@ -72,8 +68,5 @@ public class App {
             return false;
             }
     }
-
-
-
 
 }
