@@ -14,6 +14,19 @@ public class App {
      * y devuelve en entero, los segundos equivalentes. Si hay un error, devuelve -1. 
      *  Adaptado de edabit
      */
+    public static int Convertir_min_sec(int minutos){
+
+        try {
+            int total_segs = 0;
+            final byte segxmin = 60;
+            total_segs = minutos * segxmin;
+            return total_segs;
+
+        } 
+            catch (Exception e) {
+                return -1;
+        }
+     }
     
 
 
@@ -22,6 +35,21 @@ public class App {
      * y devuelve un booleano true si son iguales, false si no lo son. Si hay un error, devuelve false también.
      *  Adaptado de edabit
      */
+     public static boolean Validar_iguales(short nro1, short nro2){
+        try {
+            boolean son_iguales = false;
+            if(nro1 == nro2)
+                son_iguales = true;
+            
+            return son_iguales;
+         }
+        
+        catch (Exception e) {
+            return false;
+         }
+    }
+
+    
 
 
 
@@ -31,6 +59,20 @@ public class App {
      * Si hay un error, devuelve 0.
      *  Adaptado de edabit
      */
+     public static boolean Validar_iguales(short nro1, short nro2){
+        try {
+            boolean son_iguales = false;
+            if(nro1 == nro2)
+                son_iguales = true;
+            
+            return son_iguales;
+            }
+        
+        catch (Exception e) {
+            return false;
+            }
+    }
+
 
 
 
