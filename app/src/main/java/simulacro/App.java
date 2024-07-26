@@ -35,7 +35,7 @@ public class App {
      * y devuelve un booleano true si son iguales, false si no lo son. Si hay un error, devuelve false también.
      *  Adaptado de edabit
      */
-     public static boolean Validar_iguales(short nro1, short nro2){
+     public static boolean Validar_iguales(byte nro1, byte nro2){
         try {
             boolean son_iguales = false;
             if(nro1 == nro2)
